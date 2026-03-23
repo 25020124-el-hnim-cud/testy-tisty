@@ -18,7 +18,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         try {
 
-            Parent root = FXMLLoader.load(getClass().getResource("Login.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("AgeVerify.fxml"));
             Image icon = new Image(getClass().getResourceAsStream("augh.png"));
             stage.getIcons().add(icon);
             Scene scene = new Scene(root);

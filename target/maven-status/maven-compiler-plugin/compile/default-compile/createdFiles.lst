@@ -1,4 +1,5 @@
 module-info.class
 com\dukiapp\Login.class
-com\dukiapp\Client.class
 com\dukiapp\App.class
+com\dukiapp\AgeVerify.class
+com\dukiapp\Client.class
