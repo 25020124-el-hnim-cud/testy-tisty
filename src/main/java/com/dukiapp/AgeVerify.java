@@ -29,14 +29,8 @@ public class AgeVerify {
         try {
             age = Integer.parseInt(ageTextField.getText());
             if (age >= 18) {
-                String username = ageTextField.getText();
-
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("Client.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("Login.fxml"));
                 root = loader.load();
-
-                Client client = loader.getController();
-                client.displayName(username);
-
                 stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
                 scene = new Scene(root);
                 stage.setScene(scene);
